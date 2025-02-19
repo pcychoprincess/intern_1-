@@ -19,10 +19,14 @@ body{
     /* background: url(fon.jpg);/* no-repeat;  
     background-size:cover; */ 
     /* background-color: rgb(255, 255, 0); */
-    background-image: linear-gradient(rgb(255, 255, 63),rgb(255, 255, 255));
+    background-image: linear-gradient(rgb(255, 255, 19),rgb(255, 255, 255));
 }
 a{
     text-decoration: none;
+}
+a:hover{color: rgb(246, 255, 0);
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
 }
 .navi{
     border: 4px rgb(128, 0, 255) double; 
