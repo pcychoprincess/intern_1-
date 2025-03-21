@@ -19,8 +19,27 @@ body{
     /* background: url(fon.jpg);/* no-repeat;  
     background-size:cover; */ 
     /* background-color: rgb(255, 255, 0); */
+    /* overflow: hidden; */
     background-image: linear-gradient(rgb(255, 255, 19),rgb(255, 255, 255));
 }
+.gal{
+    padding: 25px 10px 25px 10px;
+    background-color: rgb(196, 147, 253);
+    border-radius: 30px;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow: scroll;
+}
+.im{
+    display: inline;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.49);
+    padding: 15px;
+    margin: 0px 4px 0px 4px;
+    border-radius:20px ;
+}
+
 a{
     text-decoration: none;
 }
